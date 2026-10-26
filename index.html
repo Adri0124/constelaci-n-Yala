@@ -49,9 +49,6 @@
             display: block;
         }
         .interactive-btn {
-            position: absolute;
-            bottom: 30px;
-            right: 30px;
             background-color: #2d6a4f;
             color: white;
             padding: 12px 24px;
@@ -70,6 +67,11 @@
         .interactive-btn:hover {
             background-color: #40916c;
             transform: scale(1.05);
+        }
+        .btn-floating {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
         }
         .secondary-img {
             width: 100%;
@@ -91,7 +93,7 @@
 
     <header>
         <h1>Constelación Yala: Mujer, Identidad y Territorio</h1>
-        <p class="subtitle">Simulador Interactivo - Experiencia Visual y Audiovisual</p>
+        <p class="subtitle">Simulador Interactivo - Experiencia Visual, Audiovisual y Transmedial</p>
     </header>
 
     <!-- PRIMERA IMAGEN: Constelación Yala con el botón al video -->
@@ -99,7 +101,7 @@
         <div class="image-wrapper">
             <img src="Constelación_Yala__Mujer_y_Territorio.png" alt="Constelación Yala: Mujer, Identidad y Territorio">
             
-            <a href="https://drive.google.com/file/d/1DD9-MWfAHlQeH5qnEh7tx6cyVE2JQv2J/view?usp=drive_link" target="_blank" class="interactive-btn">
+            <a href="https://drive.google.com/file/d/1DD9-MWfAHlQeH5qnEh7tx6cyVE2JQv2J/view?usp=drive_link" target="_blank" class="interactive-btn btn-floating">
                 ▶ Ver Video Explicativo
             </a>
         </div>
@@ -112,7 +114,18 @@
         </div>
     </div>
 
-    <!-- SEGUNDA IMAGEN: Infografía del INTA -->
+    <!-- SEGUNDA SECCIÓN: Línea de Tiempo de Fútbol (Genially) -->
+    <div class="container">
+        <h2>Mi Pasión: 20 Años de Fútbol</h2>
+        <p class="subtitle">Explora la línea de tiempo interactiva con fotogramas y momentos compartidos</p>
+        <div style="margin-top: 15px;">
+            <a href="https://view.genially.com/6adf8f52711e9da54bdeadcc" target="_blank" class="interactive-btn">
+                ⚽ Ver Línea de Tiempo Transmedial
+            </a>
+        </div>
+    </div>
+
+    <!-- TERCERA IMAGEN: Infografía del INTA -->
     <div class="container">
         <h2>Infografía Adicional</h2>
         <img src="Infografía__De_Yala_al_INTA.png" alt="Infografía De Yala al INTA" class="secondary-img">
